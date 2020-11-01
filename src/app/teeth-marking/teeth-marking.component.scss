@@ -1,0 +1,171 @@
+
+.container{
+    margin: 2% 10%;
+}
+
+.purple-bg{
+    background-color: purple;
+  }
+  .red-bg{
+    background-color: red;
+  }
+  .green-bg{
+    background-color: green;
+  
+  }
+  .blue-bg{
+    background-color: blue;
+  
+  }
+  .orange-bg{
+    background-color: orange;
+  
+  }
+  .brown-bg{
+    background-color: brown;
+  
+  }
+  
+  
+  button{
+    color: #fff;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    min-width: 100px;
+    border: none;
+  }
+  input {
+    display: none;
+  }
+  
+  .default input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+  
+  .default input[type="checkbox"]:checked + label:before {
+    background: grey;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+  
+   .red input[type="checkbox"]:checked + label:before {
+    background: red;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+   .red input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+  
+    .green input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+   .green input[type="checkbox"]:checked + label:before {
+    background: green;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+  
+  
+  .blue input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+   .blue input[type="checkbox"]:checked + label:before {
+    background: blue;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+  
+  
+  .orange input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+   .orange input[type="checkbox"]:checked + label:before {
+    background: orange;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+  
+  
+  .brown input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+   .brown input[type="checkbox"]:checked + label:before {
+    background: brown;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+  
+  .purple input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 0.25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+  }
+   .purple input[type="checkbox"]:checked + label:before {
+    background: purple;
+    color: #fff;
+    content: "\2713";
+    text-align: center;
+  }
+  

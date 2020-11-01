@@ -1,0 +1,20 @@
+
+<div class="container">
+
+
+    <div>
+        <button class="red-bg" (click)="onClickButton('red')">Red</button>
+        <button class="green-bg" (click)="onClickButton('green')">Green</button>
+        <button class="blue-bg" (click)="onClickButton('blue')">Blue</button>
+        <button class="orange-bg" (click)="onClickButton('orange')">Orange</button>
+        <button class="brown-bg" (click)="onClickButton('brown')">Brown</button>
+      </div>
+      
+      
+      <div *ngFor="let teeth of teeths; " style="display:inline-block;margin-top: 50px;">
+        <div [class]="teeth.class" style="margin-bottom:20px; width:100px ">
+          <input [id]="teeth.id"  type="checkbox" (change)="onClickTeeth($event,teeth.id)">
+          <label [for]="teeth.id" ></label>
+        </div>
+      </div>
+    </div>
